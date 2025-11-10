@@ -1,0 +1,136 @@
+2025-11-10 18:52:03,160 - INFO - ============================================================
+2025-11-10 18:52:03,161 - INFO - FOOTBALL DATA ETL - LOADING PROCESS STARTED
+2025-11-10 18:52:03,161 - INFO - ============================================================
+2025-11-10 18:52:03,162 - INFO - Start Time: 2025-11-10 18:52:03
+
+2025-11-10 18:52:03,228 - INFO -   - player_injuries
+2025-11-10 18:52:03,228 - INFO -   - player_latest_market_value
+2025-11-10 18:52:03,229 - INFO -   - player_market_value
+2025-11-10 18:52:03,229 - INFO -   - player_national_performances
+2025-11-10 18:52:03,229 - INFO -   - player_performances
+2025-11-10 18:52:03,230 - INFO -   - player_profiles
+2025-11-10 18:52:03,230 - INFO -   - player_teammates_played_with
+2025-11-10 18:52:03,230 - INFO -   - team_children
+2025-11-10 18:52:03,231 - INFO -   - team_competitions_seasons
+2025-11-10 18:52:03,231 - INFO -   - team_details
+2025-11-10 18:52:03,231 - INFO -   - transfer_history
+2025-11-10 18:52:03,294 - INFO - 
+============================================================
+2025-11-10 18:52:03,294 - INFO - STARTING DATA LOAD
+2025-11-10 18:52:03,295 - INFO - ============================================================
+
+2025-11-10 18:52:03,339 - INFO - Loading player_profiles: 40,738 rows from player_profiles/player_profiles.csv
+2025-11-10 18:52:03,470 - INFO -   Truncated table player_profiles
+2025-11-10 18:52:28,069 - INFO - 
+2025-11-10 18:52:28,090 - INFO - Loading team_details: 1,304 rows from team_details/team_details.csv
+2025-11-10 18:52:28,115 - INFO -   Truncated table team_details
+2025-11-10 18:52:28,425 - INFO - 
+2025-11-10 18:52:28,437 - INFO - Loading team_children: 4,931 rows from team_children/team_children.csv
+2025-11-10 18:52:28,456 - INFO -   Truncated table team_children
+2025-11-10 18:52:28,936 - INFO - 
+2025-11-10 18:52:28,946 - INFO - Loading team_competitions_seasons: 1,304 rows from team_competitions_seasons/team_competitions_seasons.csv
+2025-11-10 18:52:28,965 - INFO -   Truncated table team_competitions_seasons
+2025-11-10 18:52:29,114 - INFO - 
+2025-11-10 18:52:29,137 - INFO - Loading player_injuries: 77,871 rows from player_injuries/player_injuries.csv
+2025-11-10 18:52:29,157 - INFO -   Truncated table player_injuries
+2025-11-10 18:52:39,464 - INFO - 
+2025-11-10 18:52:39,515 - INFO - Loading player_market_value: 426,878 rows from player_market_value/player_market_value.csv
+2025-11-10 18:52:39,529 - INFO -   Truncated table player_market_value
+2025-11-10 18:52:41,014 - INFO - 
+2025-11-10 18:52:41,043 - INFO - Loading player_latest_market_value: 31,026 rows from player_latest_market_value/player_latest_market_value.csv
+2025-11-10 18:52:41,051 - INFO -   Truncated table player_latest_market_value
+2025-11-10 18:52:41,888 - INFO - 
+2025-11-10 18:52:41,918 - INFO - Loading player_national_performances: 62,370 rows from player_national_performances/player_national_performances.csv
+2025-11-10 18:52:41,933 - INFO -   Truncated table player_national_performances
+2025-11-10 18:52:43,612 - INFO - 
+2025-11-10 18:52:43,845 - INFO - Loading player_performances: 760,125 rows from player_performances/player_performances.csv
+2025-11-10 18:52:43,869 - INFO -   Truncated table player_performances
+2025-11-10 18:53:21,277 - INFO - 
+2025-11-10 18:53:21,411 - INFO - Loading player_teammates_played_with: 681,279 rows from player_teammates_played_with/player_teammates_played_with.csv
+2025-11-10 18:53:21,428 - INFO -   Truncated table player_teammates_played_with
+2025-11-10 18:54:39,458 - INFO - 
+2025-11-10 18:54:39,544 - INFO - Loading transfer_history: 279,164 rows from transfer_history/transfer_history.csv
+2025-11-10 18:54:39,570 - INFO -   Truncated table transfer_history
+2025-11-10 18:55:43,474 - INFO - 
+2025-11-10 18:55:43,474 - INFO - 
+============================================================
+2025-11-10 18:55:43,475 - INFO - VERIFYING DATA LOAD
+2025-11-10 18:55:43,475 - INFO - ============================================================
+2025-11-10 18:55:43,549 - INFO - 
+============================================================
+2025-11-10 18:55:43,549 - INFO - LOAD PROCESS COMPLETED
+2025-11-10 18:55:43,549 - INFO - ============================================================
+2025-11-10 18:55:43,550 - INFO - End Time: 2025-11-10 18:55:43
+2025-11-10 18:55:43,550 - INFO - Tables loaded successfully: 7
+2025-11-10 18:55:43,550 - INFO - Tables failed: 4
+2025-11-10 18:55:43,550 - INFO - ============================================================
+
+2025-11-10 19:29:40,393 - INFO - ============================================================
+2025-11-10 19:29:40,393 - INFO - FOOTBALL DATA ETL - LOADING PROCESS STARTED
+2025-11-10 19:29:40,393 - INFO - ============================================================
+2025-11-10 19:29:40,393 - INFO - Start Time: 2025-11-10 19:29:40
+
+2025-11-10 19:29:40,862 - INFO -   - player_injuries
+2025-11-10 19:29:40,862 - INFO -   - player_latest_market_value
+2025-11-10 19:29:40,862 - INFO -   - player_market_value
+2025-11-10 19:29:40,862 - INFO -   - player_national_performances
+2025-11-10 19:29:40,862 - INFO -   - player_performances
+2025-11-10 19:29:40,862 - INFO -   - player_profiles
+2025-11-10 19:29:40,862 - INFO -   - player_teammates_played_with
+2025-11-10 19:29:40,862 - INFO -   - team_children
+2025-11-10 19:29:40,862 - INFO -   - team_competitions_seasons
+2025-11-10 19:29:40,862 - INFO -   - team_details
+2025-11-10 19:29:40,863 - INFO -   - transfer_history
+2025-11-10 19:29:40,920 - INFO - 
+============================================================
+2025-11-10 19:29:40,920 - INFO - STARTING DATA LOAD
+2025-11-10 19:29:40,920 - INFO - ============================================================
+
+2025-11-10 19:29:40,966 - INFO - Loading player_profiles: 40,738 rows from player_profiles/player_profiles.csv
+2025-11-10 19:30:15,827 - INFO - ============================================================
+2025-11-10 19:30:15,827 - INFO - FOOTBALL DATA ETL - LOADING PROCESS STARTED
+2025-11-10 19:30:15,827 - INFO - ============================================================
+2025-11-10 19:30:15,827 - INFO - Start Time: 2025-11-10 19:30:15
+
+2025-11-10 19:30:15,862 - INFO -   - player_injuries
+2025-11-10 19:30:15,863 - INFO -   - player_latest_market_value
+2025-11-10 19:30:15,863 - INFO -   - player_market_value
+2025-11-10 19:30:15,863 - INFO -   - player_national_performances
+2025-11-10 19:30:15,863 - INFO -   - player_performances
+2025-11-10 19:30:15,863 - INFO -   - player_profiles
+2025-11-10 19:30:15,863 - INFO -   - player_teammates_played_with
+2025-11-10 19:30:15,864 - INFO -   - team_children
+2025-11-10 19:30:15,864 - INFO -   - team_competitions_seasons
+2025-11-10 19:30:15,864 - INFO -   - team_details
+2025-11-10 19:30:15,864 - INFO -   - transfer_history
+2025-11-10 19:30:15,924 - INFO - 
+============================================================
+2025-11-10 19:30:15,924 - INFO - STARTING DATA LOAD
+2025-11-10 19:30:15,924 - INFO - ============================================================
+
+2025-11-10 19:30:15,954 - INFO - Loading player_profiles: 40,738 rows from player_profiles/player_profiles.csv
+2025-11-10 19:30:16,209 - INFO -   Truncated table player_profiles
+2025-11-10 19:30:42,360 - INFO - 
+2025-11-10 19:30:42,362 - INFO - Loading team_details: 1,304 rows from team_details/team_details.csv
+2025-11-10 19:30:42,412 - INFO -   Truncated table team_details
+2025-11-10 19:30:43,080 - INFO - 
+2025-11-10 19:30:43,086 - INFO - Loading team_children: 4,931 rows from team_children/team_children.csv
+2025-11-10 19:30:43,121 - INFO -   Truncated table team_children
+2025-11-10 19:30:44,172 - INFO - 
+2025-11-10 19:30:44,183 - INFO - Loading team_competitions_seasons: 1,304 rows from team_competitions_seasons/team_competitions_seasons.csv
+2025-11-10 19:30:44,246 - INFO -   Truncated table team_competitions_seasons
+2025-11-10 19:30:44,676 - INFO - 
+2025-11-10 19:30:44,702 - INFO - Loading player_injuries: 77,871 rows from player_injuries/player_injuries.csv
+2025-11-10 19:30:44,749 - INFO -   Truncated table player_injuries
+2025-11-10 19:31:00,049 - INFO - 
+2025-11-10 19:31:00,112 - INFO - Loading player_market_value: 426,878 rows from player_market_value/player_market_value.csv
+2025-11-10 19:31:00,135 - INFO -   Truncated table player_market_value
+2025-11-10 19:31:02,074 - INFO - 
+2025-11-10 19:31:02,078 - INFO - Loading player_latest_market_value: 31,026 rows from player_latest_market_value/player_latest_market_value.csv
+2025-11-10 19:31:02,091 - INFO -   Truncated table player_latest_market_value
+2025-11-10 19:31:03,090 - INFO - 
+2025-11-10 19:31:03,105 - INFO - Loading player_national_performances: 62,370 rows from player_national_performances/player_national_performances.csv
+2025-11-10 19:31:03,133 - INFO -   Truncated table player_national_performances
+2025-11-10 19:31:05,388 - INFO - 
+2025-11-10 19:31:05,606 - INFO - Loading player_performances: 760,125 rows from player_performances/player_performances.csv
+2025-11-10 19:31:05,649 - INFO -   Truncated table player_performances
