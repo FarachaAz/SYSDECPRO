@@ -57,13 +57,13 @@ TABLE_MAPPING = {
         'file': 'player_market_value/player_market_value.csv',
         'table': 'player_market_value',
         'chunk_size': 20000,
-        'date_columns': []
+        'date_columns': ['date_unix']
     },
     'player_latest_market_value': {
         'file': 'player_latest_market_value/player_latest_market_value.csv',
         'table': 'player_latest_market_value',
         'chunk_size': 10000,
-        'date_columns': []
+        'date_columns': ['date_unix']
     },
     'player_national_performances': {
         'file': 'player_national_performances/player_national_performances.csv',

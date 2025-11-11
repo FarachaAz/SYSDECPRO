@@ -53,7 +53,7 @@ CREATE TABLE player_injuries (
 CREATE TABLE player_market_value (
     market_value_id SERIAL PRIMARY KEY,
     player_id INTEGER NOT NULL,
-    date_unix BIGINT,
+    date_unix DATE,
     value DECIMAL(15,2),
     FOREIGN KEY (player_id) REFERENCES player_profiles(player_id) ON DELETE CASCADE
 );
@@ -61,7 +61,7 @@ CREATE TABLE player_market_value (
 -- Player Latest Market Value
 CREATE TABLE player_latest_market_value (
     player_id INTEGER PRIMARY KEY,
-    date_unix BIGINT,
+    date_unix DATE,
     value DECIMAL(15,2),
     FOREIGN KEY (player_id) REFERENCES player_profiles(player_id) ON DELETE CASCADE
 );
@@ -70,7 +70,7 @@ CREATE TABLE player_latest_market_value (
 CREATE TABLE player_national_performances (
     national_performance_id SERIAL PRIMARY KEY,
     player_id INTEGER NOT NULL,
-    team_id INTEGER,
+    team_id VARCHAR(50),
     team_name VARCHAR(255),
     first_game_date DATE,
     matches INTEGER,

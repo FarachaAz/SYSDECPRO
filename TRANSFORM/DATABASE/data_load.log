@@ -134,3 +134,31 @@
 2025-11-10 19:31:05,388 - INFO - 
 2025-11-10 19:31:05,606 - INFO - Loading player_performances: 760,125 rows from player_performances/player_performances.csv
 2025-11-10 19:31:05,649 - INFO -   Truncated table player_performances
+2025-11-10 19:35:44,557 - INFO - 
+2025-11-10 19:35:44,660 - INFO - Loading player_teammates_played_with: 681,279 rows from player_teammates_played_with/player_teammates_played_with.csv
+2025-11-10 19:35:44,688 - INFO -   Truncated table player_teammates_played_with
+2025-11-10 19:36:59,073 - INFO - 
+2025-11-10 19:36:59,129 - INFO - Loading transfer_history: 279,164 rows from transfer_history/transfer_history.csv
+2025-11-10 19:36:59,194 - INFO -   Truncated table transfer_history
+2025-11-10 19:38:32,725 - INFO - 
+2025-11-10 19:38:32,726 - INFO - 
+============================================================
+2025-11-10 19:38:32,726 - INFO - VERIFYING DATA LOAD
+2025-11-10 19:38:32,726 - INFO - ============================================================
+2025-11-10 19:38:32,861 - INFO - 
+============================================================
+2025-11-10 19:38:32,861 - INFO - LOAD PROCESS COMPLETED
+2025-11-10 19:38:32,862 - INFO - ============================================================
+2025-11-10 19:38:32,862 - INFO - End Time: 2025-11-10 19:38:32
+2025-11-10 19:38:32,862 - INFO - Tables loaded successfully: 8
+2025-11-10 19:38:32,862 - INFO - Tables failed: 3
+2025-11-10 19:38:32,863 - INFO - ============================================================
+
+2025-11-10 19:47:05,395 - INFO - Loading player_market_value: 426,878 rows from player_market_value/player_market_value.csv
+2025-11-10 19:47:05,427 - INFO -   Truncated table player_market_value
+2025-11-10 19:53:21,617 - INFO - Loading player_market_value: 426,878 rows from player_market_value/player_market_value.csv
+2025-11-10 19:53:21,655 - INFO -   Truncated table player_market_value
+2025-11-10 19:53:49,758 - INFO - Loading player_latest_market_value: 31,026 rows from player_latest_market_value/player_latest_market_value.csv
+2025-11-10 19:53:49,773 - INFO -   Truncated table player_latest_market_value
+2025-11-10 19:53:51,982 - INFO - Loading player_national_performances: 62,370 rows from player_national_performances/player_national_performances.csv
+2025-11-10 19:53:52,009 - INFO -   Truncated table player_national_performances
